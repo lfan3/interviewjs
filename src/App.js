@@ -3,12 +3,11 @@ import {Fragment} from 'react';
 import ClassLifeCycle from './ClassLifeCycle';
 import FunctionalLifeCycle from './FunctionalLifeCycle';
 
-
 function App(){
   return(
     <Fragment>
-      <ClassLifeCycle/>
-      <FunctionalLifeCycle/>
+    <ClassLifeCycle/>
+    <FunctionalLifeCycle/>
     </Fragment>
   )
 }
